@@ -9,11 +9,14 @@ public class C02 {
         obj.acikSayi=50;
 
 
-        //C01.sayi=10 private access modifier'i oldugudan baska class'da
-        //
+        //C01.sayi=10 private access modifier oldugudan baska class'da
 
+        // ulasamayiz privat datalara sadece bulundugu class'ta ulasabiliriz
 
-       // C01 objParametreli=new C01(5);
+        //obj.metjod1; private access modifier'i oldugunudan baska class'ta ulasamayiz
+
+        // C01 objParametreli=new C01(5); private access modifier'i oldugunudan baska class'ta ulasamayiz
+
 
 
 
