@@ -7,6 +7,6 @@ public class C03 {
     public static void artirma(){
 
         sayi++;
-        System.out.println("sayinin su andaki degeri " + sayi);
+        System.out.println("sayinin C03'teki degeri " + sayi);
     }
 }
