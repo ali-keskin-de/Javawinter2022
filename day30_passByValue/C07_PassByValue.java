@@ -7,9 +7,11 @@ public class C07_PassByValue {
         int arr[]={1,2,3};
         System.out.println(Arrays.toString(arr));
         arrDegistir(arr);
+        System.out.println("method call sonrasi : " + Arrays.toString(arr));//[1, 2, 3]
     }
     private static void arrDegistir(int[] arr){
-        arr=new int[5];//[0, 0, 0, 0, 0]
+
+        arr=new int[5];//[0, 0, 0, 0, 0] burda yep yeni bir Array olusturduk
         System.out.println(Arrays.toString(arr));//arr=new int[5];//[0, 0, 0, 0, 0]
 
     }

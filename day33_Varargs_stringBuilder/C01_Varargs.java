@@ -9,11 +9,12 @@ public class C01_Varargs {
         String str2="Veli";
         String str3="Oguzhan";
         String str4="Abdulsamet";
+        String str5= "Alikemal osman";
 
         // yazilan argument sayisi sabit ise herzaman ki gibi bir method olusturabiliriz
         // ancak  argument sayisinin degoisme ihtimali varsa o zaman Varags tercih edilir
 
-        enUzunKelime(str1,str2,str3,str4);
+        enUzunKelime(str1,str2,str3,str4,str5);
     }
 
     private static void enUzunKelime(String... str) {
