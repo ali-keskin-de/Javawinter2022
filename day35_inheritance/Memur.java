@@ -6,7 +6,7 @@ public class Memur extends Personel {
         Memur objeMemur= new Memur();
         objeMemur.isim="Tuba";
         objeMemur.SoyIsim="Terzioglu";
-        objeMemur.adres="Amsterdam";
+        objeMemur.adres="Baku";
 
     }
 }

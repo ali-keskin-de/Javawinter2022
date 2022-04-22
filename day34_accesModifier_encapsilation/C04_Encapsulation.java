@@ -15,13 +15,16 @@ public class C04_Encapsulation {
          o variable public olmus gibi hem okur hem de yazmasina müsade edilir
 
          getter ve setter yekileri sinirlamak icin kullanilan methodlar
-         piyasada geneluygulama public yapmak yerine developer'lar
+         piyasada genel uygulama public yapmak yerine developer'lar
          ise getter ve setter'lar kullaniyor
 
 
          */
         C03 obj=new C03();
         System.out.println(obj.getSayi());//0
+        String str1="";
+        System.out.println(obj.getStr());//null
+        str1= obj.getStr();
 
         obj.setStr("Java Java Java");
         System.out.println(obj.getStr());//Java Java Java

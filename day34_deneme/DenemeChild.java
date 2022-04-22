@@ -8,6 +8,12 @@ public class DenemeChild extends C01 {
         System.out.println(halkaAcikSayi);//15
         halkaAcikSayi=30;
 
+        C01.aileyeÖzel=25;
+
+
+        
+
+
     }
 
 }
