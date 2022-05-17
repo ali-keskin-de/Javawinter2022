@@ -10,7 +10,8 @@ public abstract class C04 {
 
      */
     public abstract void absMethod();
-    public void concreteMethod(){
+
+    public static void concreteStaticMethod(){
         System.out.println("C04 concrete method");
     }
 
@@ -18,12 +19,14 @@ public abstract class C04 {
         /*
         Abstract class'lar consturctor'a sahiptir
         ancak Abstract class'larda obj'e olusturulamaz
+
         Abstract class'lar obje barindirmayan sadece child classlar icin uyulmasi sart olan
         veya opsiyonel birakilan özellikleri tanimladigimiz bir depo class gibidir
 
 
          */
         System.out.println("Bu class abstract");
+        concreteStaticMethod();
     }
 
 }

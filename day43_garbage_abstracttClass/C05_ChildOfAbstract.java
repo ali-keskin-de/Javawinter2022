@@ -7,10 +7,11 @@ public class C05_ChildOfAbstract extends C04 {
     //bizden child class'i abstract yapmamizi veya parent class'daki abstract method'lari override etmemizi ister
 
     // parent olan class abstract class'taki concrete method'lar ise opsiyoneldir anleri istersek overide ederiz, istemezsek override etmeyiz
-    
+
 
     @Override
     public void absMethod() {
 
     }
 }
+

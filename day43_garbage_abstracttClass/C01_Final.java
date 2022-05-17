@@ -7,14 +7,15 @@ public class C01_Final {
 
     public static void main(String[] args) {
         final int sayi=10;
+        //okulIsmi="Java Koleji"; final olarak isaretledigimizde dolayi assing edilemez yeni bir deger
 
        // sayi=20;// final olan bir final sayi variable'na deger atayamazsiniz degistiremezsiniz
     }
     public static final void method1(){
         /*
-        override parnet class'taki method'u child classs'a uyarlamak demektir
+        override parnet class'taki method'u child class'a uyarlamak demektir
         yani islemin degistirilmesini istiyoruz
-        ancak parent class'daki method final olarak tanimla...
+        ancak parent class'daki method final olarak tanimlandiginda java methodnun uyarlanmasina izin vermiyor
          */
         System.out.println("Parent Class Final method1");
 
