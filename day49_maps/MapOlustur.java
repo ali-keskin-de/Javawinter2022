@@ -9,6 +9,8 @@ public class MapOlustur {
         sinifList.put(101,"Ali, Can, Dev");
         sinifList.put(102,"Veli, Yan, QA");
         sinifList.put(103,"Ali, Yan, C#");
+        sinifList.put(104,"Fatma, kan, Dev");
+        sinifList.put(105,"Ayse, Zan, C#");
         return sinifList;
 
 

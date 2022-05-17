@@ -30,6 +30,8 @@ public class C01_Maps {
         sinifList.put(101,"Ali, Can, Dev");
         sinifList.put(102,"Veli, Yan, QA");
         sinifList.put(103,"Ali, Yan, C#");
+        sinifList.put(104,"Fatma, kan, Dev");
+        sinifList.put(105,"Ayse, Zan, C#");
         System.out.println(sinifList);
         System.out.println(sinifList.keySet());//[101, 102, 103]
         System.out.println(sinifList.values());//[Ali, Can, Dev, Veli, Yan, QA, Ali, Yan, C#]
