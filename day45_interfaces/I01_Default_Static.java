@@ -13,8 +13,8 @@ public interface I01_Default_Static {
     ancak burada kullanilan default access modifier degildir
     cunku Interface'lerde tum method'lar public ve abstract'ti
 
-    asagidaki örnektede görebileceginiz gibidefault olarak tanimlanmis bir method'a access modifier olarak public yazabiliriz
-    (access modifier yazmasak da java method'u public olarak kabuledecektir
+    asagidaki örnektede görebileceginiz gibi default olarak tanimlanmis bir method'a access modifier olarak public yazabiliriz
+    (access modifier yazmasak da java method'u public olarak kabul edecektir)
 
 
      */
@@ -30,3 +30,4 @@ public interface I01_Default_Static {
 
 
 }
+

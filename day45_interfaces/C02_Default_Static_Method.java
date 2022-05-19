@@ -6,6 +6,8 @@ bir interface'te default veya static olarak tanimlanan ve body'si olan methodlar
 override edilmesi mecbüri degildir
 
  */
+
+
     @Override
     public void method1() {
         System.out.println("Child class method1");
@@ -13,9 +15,12 @@ override edilmesi mecbüri degildir
 
     }
 
+
     public static void main(String[] args) {
 
-        // Interface'teki static olarak tanimlanan method'lara static yöntemlerle ulasabiliriz InterfaceIsmi.methodIsmi
+        // Interface'teki static olarak tanimlanan method'lara static yöntemlerle ulasabiliriz---> InterfaceIsmi.methodIsmi
+        // Eger static olarak tanimlanmissa zaten override edemeyiz--static methodlar override edilemez
+
 
 
         I01_Default_Static.method3();
@@ -23,7 +28,8 @@ override edilmesi mecbüri degildir
         // ancak static bir üyeye obje üzerinden ulasamayiz
 
         C02_Default_Static_Method obj=new C02_Default_Static_Method();
-        obj.method1();
-        obj.method2();
+        obj.method1();//Child class method1
+        obj.method2();// Parent Interface gelecek
+
     }
 }
