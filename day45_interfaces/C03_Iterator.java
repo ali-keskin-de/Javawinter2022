@@ -14,7 +14,7 @@ public class C03_Iterator {
         liste.add(9);
         System.out.println(liste);
         // for each kullanarak her elementi 2 artiralim
-        for (int each: liste
+        for (Integer each: liste
              ) {
             each=each+2;
 

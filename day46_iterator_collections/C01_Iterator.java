@@ -14,10 +14,13 @@ public class C01_Iterator {
         liste.add(9);
 
         System.out.println(liste); //[5, 7, 8, 6, 9]
+       // Iterator itr= new Iterator(); anack Iterator class'i bir abstract classtir abstract class'lardan obje olusturulamaz
+        // Iterator kendiside Interface'tir
 
         // Asagida liste obje si üzerinden iterator methodunu kullaniyoruz
 
         Iterator itr= liste.iterator();
+
         // Iterator methodunu olusturdugumuz liste objesi üzerinden Arraylist class'indan calistiriyoruz
         /*
         iterator nasil calisir
@@ -26,7 +29,7 @@ public class C01_Iterator {
         Biz Iterator collection'in ilk elementini oncesine gidip bekler
 
         [(itr)5, 7, 8, 6, 9]
-        itr,hasNext()===> true bu su demek yaninda elemet varmi true ada false döner
+        itr,hasNext()===> true bu su demek yaninda elemet varmi true ayda false döner
 
         bunu yazdir dersek;
         System.out.println(itr.next());===> iterator bir sonraki elementin yanina gecer ve üzerinden gectigi elemanti bize döndürür

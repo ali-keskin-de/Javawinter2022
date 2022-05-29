@@ -9,6 +9,8 @@ public class C05_LinkedList {
         list.add(5);// add method'u Listen geldigi icin hep sona ekler
         list.addFirst(11);//addFirst deque'den gelir
         list.addLast(12);//addLast deque'den gelir
+        System.out.println(list.peek()+" peek");
+        
 
         System.out.println(list);//[11, 5, 12]
 

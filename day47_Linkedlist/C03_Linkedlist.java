@@ -13,7 +13,7 @@ public class C03_Linkedlist {
 
         //System.out.println(ll1.element());// Bos iken kullanirsak exception firlatiyor (ilk elementi getiriyor )
 
-        System.out.println(ll1.poll());// null
+        System.out.println(ll1.poll());// Bosken bize null dönürüyor
 
         ll1.push(30);// listenin basina element ekler
         ll1.push(20);
@@ -27,6 +27,7 @@ public class C03_Linkedlist {
         System.out.println(ll1);
         ll1.removeFirstOccurrence(30);
         System.out.println(ll1);
+
 
 
 

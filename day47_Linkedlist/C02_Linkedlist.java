@@ -6,12 +6,12 @@ import java.util.LinkedList;
 public class C02_Linkedlist {
     public static void main(String[] args) {
 
-        //
+        // List'de gelen äzellelikleri biliyoruz bu sebepten Deque'den gelen özelliklere  bakalim
 
         Deque<Integer> ll1= new LinkedList<>();
 
-        ll1.addFirst(10);
-        ll1.addLast(20);
+        ll1.addFirst(10);// basa elemen ekler
+        ll1.addLast(20);//sona eleman ekler
         System.out.println(ll1);//[10, 20]
         System.out.println(ll1.element());//10 ilk elementi bize silmeden döndürür yoksa exception firlatir
 

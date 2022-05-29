@@ -14,7 +14,16 @@ override edilmesi mecbüri degildir
 
 
     }
+/*
+    @Override
+    public void method2() {
+        System.out.println("Child class'taki method2");
+    }
 
+    parent Interfaceteki default olarak tanimlanan methodu istersek override ederiz  istemezsek,
+     method cagrildiginda parent Interfacedeki calisir
+    override edersek child classtaki overriding method calisir.
+ */
 
     public static void main(String[] args) {
 
@@ -30,6 +39,8 @@ override edilmesi mecbüri degildir
         C02_Default_Static_Method obj=new C02_Default_Static_Method();
         obj.method1();//Child class method1
         obj.method2();// Parent Interface gelecek
+        // obj.method3(); eski classlarda static bir üyeye static olmayan yollarlada ulasabilirdik  ancak interface icerisindeki
+        // static olarak tanimlanan methoda static olmayan yöntemlerle ulasamayiz
 
     }
 }
