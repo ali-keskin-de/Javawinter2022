@@ -27,14 +27,16 @@ public class C01_Maps {
         // tüm elementler icin value ayni bicinde olusturulmalidir
         // (veri siralmasi ve sekilsel acidan)
 
-        sinifList.put(101,"Ali, Can, Dev");
+        sinifList.put(101,"Ali, Can, Java");
         sinifList.put(102,"Veli, Yan, QA");
         sinifList.put(103,"Ali, Yan, C#");
         sinifList.put(104,"Fatma, kan, Dev");
-        sinifList.put(105,"Ayse, Zan, C#");
-        System.out.println(sinifList);
+        sinifList.put(105,"Ayse, Zan, Java");
+        System.out.println(sinifList);//{101=Ali, Can, Dev, 102=Veli, Yan, QA, 103=Ali, Yan, C#, 104=Fatma, kan, Dev, 105=Ayse, Zan, C#}
         System.out.println(sinifList.keySet());//[101, 102, 103]
         System.out.println(sinifList.values());//[Ali, Can, Dev, Veli, Yan, QA, Ali, Yan, C#]
+        System.out.println(sinifList.containsKey(102));// 102 id numarali ögrenci varmi sorgusu
+
 
 
 

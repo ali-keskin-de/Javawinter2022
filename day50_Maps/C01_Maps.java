@@ -56,10 +56,12 @@ public class C01_Maps {
 
                 valueMDArr[i][j]=temp[j];
 
-
             }
 
+
         }
+        System.out.println();
+
 
          // Bu satira kadar key'leri index ile ulasabildigim keyList'e atadim
         // Value'leri valueMDArr'e attadim
